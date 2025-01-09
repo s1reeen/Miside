@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
