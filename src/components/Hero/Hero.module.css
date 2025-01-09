@@ -1,10 +1,56 @@
 .hero {
+  position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 
-video {
+.heroVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.heroText h1 {
+  white-space: nowrap;
+  line-height: 1;
+  color: #ff66cc;
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+.heroText p {
+  margin-top: 0px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.heroText button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: #ff66cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.heroText button:hover {
+  background: #371541;
 }
