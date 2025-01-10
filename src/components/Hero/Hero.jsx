@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <div className={css.hero}>
+    <section className={css.hero}>
       <video
         className={css.heroVideo}
         src={videoBg}
@@ -16,6 +16,7 @@ const Hero = () => {
         loop
         muted
       ></video>
+      <div className={css.heroOverlay}></div>
       <div className={css.heroText}>
         <h1>MiSide - The Ultimate Psychological Horror Experience</h1>
         <p>
@@ -25,10 +26,10 @@ const Hero = () => {
           decision shapes your experience.
         </p>
         <button className={css.downloadButton} onClick={handleClick}>
-          Download MiSide <FaSteamSymbol />
+          Download MiSide <FaSteamSymbol className={css.steam} />
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
