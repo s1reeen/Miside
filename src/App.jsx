@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import "modern-normalize/modern-normalize.css";
 import "./App.css";
+import Features from "./components/Features/Features";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <div className="wrapper">
         <AboutUs />
+        <Features />
       </div>
     </div>
   );

@@ -27,7 +27,7 @@
 
 .heroText {
   position: absolute;
-  top: 30%; /* Position the content higher */
+  top: 40%; /* Position the content higher */
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
