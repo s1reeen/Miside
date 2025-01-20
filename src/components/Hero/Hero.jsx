@@ -7,7 +7,7 @@ import {
   FaSteam,
   FaExpand,
 } from "react-icons/fa";
-import phoneBG from "../../assets/phoneBG.png";
+import phoneBG from "../../assets/phoneBg.png";
 import video from "../../assets/trailer.mp4";
 import css from "./Hero.module.css";
 
